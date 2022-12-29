@@ -43,7 +43,7 @@ input::-webkit-inner-spin-button{
 
 .win-box{
     position: relative;
-    padding: 5px;
+    padding: 4px;
     /* box-shadow:
     inset 0 0 0 5px rgb(255, 255, 255),
     inset 0 0 0 5.3px rgba(0, 0, 0); */
@@ -70,9 +70,9 @@ input::-webkit-inner-spin-button{
     content: "";
     display: block;
     position: absolute;
-    width: 10px;
+    width: 6px;
     top: 2px;
-    left: -2px;
+    left: -1px;
     transform: rotateZ(45deg);
     height: 0.3px;
     background: #888888;
@@ -81,9 +81,9 @@ input::-webkit-inner-spin-button{
     content: "";
     display: block;
     position: absolute;
-    width: 10px;
+    width: 6px;
     top: 2px;
-    right: -2px;
+    right: -1px;
     transform: rotateZ(-45deg);
     height: 0.3px;
     background: #888888;
@@ -95,7 +95,7 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 9px;
     bottom: 3px;
-    left: -2px;
+    left: -1.5px;
     transform: rotateZ(-45deg);
     height: 0.3px;
     background: #888888;
@@ -106,7 +106,7 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 9px;
     bottom: 3px;
-    right: -2px;
+    right: -1.5px;
     transform: rotateZ(45deg);
     height: 0.3px;
     background: #888888;
@@ -114,9 +114,9 @@ input::-webkit-inner-spin-button{
 
 .list-item-top{
     position: relative;
-    width: 111px;
+    width: 113px;
     height: 54px;
-    padding: 3px;
+    padding: 2px;
     /* box-shadow:
     inset 0 0 0 3px rgb(255, 255, 255),
     inset 0 0 0 3.3px rgba(0, 0, 0); */
@@ -133,9 +133,9 @@ input::-webkit-inner-spin-button{
     content: "";
     display: block;
     position: absolute;
-    width: 4.5px;
-    bottom: 1.4px;
-    left: -0.8px;
+    width: 3px;
+    bottom: 1px;
+    left: -0.5px;
     transform: rotateZ(-45deg);
     height: 0.3px;
     background: #888888;
@@ -144,9 +144,9 @@ input::-webkit-inner-spin-button{
     content: "";
     display: block;
     position: absolute;
-    width: 4.5px;
-    bottom: 1.4px;
-    right: -0.8px;
+    width: 3px;
+    bottom: 1px;
+    right: -0.5px;
     transform: rotateZ(45deg);
     height: 0.3px;
     background: #888888;
@@ -155,9 +155,9 @@ input::-webkit-inner-spin-button{
     content: "";
     display: block;
     position: absolute;
-    width: 4.5px;
-    top: 1.4px;
-    left: -0px;
+    width: 4px;
+    top: 1px;
+    left: -1px;
     transform: rotateZ(45deg);
     height: 0.3px;
     background: #888888;
@@ -166,9 +166,9 @@ input::-webkit-inner-spin-button{
     content: "";
     display: block;
     position: absolute;
-    width: 4.5px;
-    top: 1.4px;
-    right: 0px;
+    width: 4px;
+    top: 1px;
+    right: -1px;
     transform: rotateZ(-45deg);
     height: 0.3px;
     background: #888888;
@@ -192,14 +192,14 @@ input::-webkit-inner-spin-button{
 .list-item-center{
     position: relative;
     z-index: 0;
-    width: 76px;
+    width: 77px;
     height: 158px;
     /* padding: 8px; */
     /* box-shadow: 
     inset 0 0 0 10px rgb(255, 255, 255),
     inset 0 0 0 10.4px rgba(0, 0, 0); */
     border: 0.3px solid #888888;
-    margin-top: 3px;
+    margin-top: 5px;
     background: #FFF;
 }
 
@@ -209,7 +209,7 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 18px;
     top: 6px;
-    left: -2px;
+    left: -2.7px;
     transform: rotateZ(45deg);
     height: 0.3px;
     background: #888888;
@@ -220,7 +220,7 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 18px;
     top: 6px;
-    right: -2px;
+    right: -2.7px;
     transform: rotateZ(-45deg);
     height: 0.3px;
     background: #888888;
@@ -231,10 +231,10 @@ input::-webkit-inner-spin-button{
     z-index: 2;
     /* width: 100%;
     height: 100%; */
-    top: 8px;
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
     padding: 3px;
     /* box-shadow:
     0 0 0 3px rgb(255, 255, 255),
@@ -247,9 +247,9 @@ input::-webkit-inner-spin-button{
     content: "";
     display: block;
     position: absolute;
-    width: 18px;
-    bottom: -2px;
-    left: -12px;
+    width: 15px;
+    bottom: -1px;
+    left: -9px;
     transform: rotateZ(-45deg);
     height: 0.3px;
     background: #888888;
@@ -258,9 +258,9 @@ input::-webkit-inner-spin-button{
     content: "";
     display: block;
     position: absolute;
-    width: 18px;
-    bottom: -2px;
-    right: -12px;
+    width: 15px;
+    bottom: -1px;
+    right: -9px;
     transform: rotateZ(45deg);
     height: 0.3px;
     background: #888888;
@@ -273,7 +273,7 @@ input::-webkit-inner-spin-button{
     left: 3px;
     right: 3px;
     bottom: 3px;
-    padding: 3px;
+    padding: 2px;
     border: 0.2px solid #888888;
     background-image: repeating-linear-gradient(135deg, #DCF0FB, #b2dff1 15%, #DCF0FB 35%);
 }
@@ -305,9 +305,9 @@ input::-webkit-inner-spin-button{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: -12px;
+    right: -10px;
     display: inline-block;
-    width: 6px;
+    width: 5px;
     height: 15px;
     border-radius: 1px;
     background: #888888;
@@ -317,7 +317,7 @@ input::-webkit-inner-spin-button{
     content: "";
     display: block;
     position: absolute;
-    width: 3px;
+    width: 2.5px;
     height: 11px;
     background: #888888;
     left: 50%;
@@ -353,8 +353,8 @@ input::-webkit-inner-spin-button{
 
 .list-item-side{
     position: relative;
-    width: 70px;
-    height: 154px;
+    width: 71px;
+    height: 157px;
     padding: 3px;
     margin-top: 5px;
     border: 0.3px solid #888888;
@@ -366,8 +366,8 @@ input::-webkit-inner-spin-button{
     display: block;
     position: absolute;
     width: 4.5px;
-    top: 1.4px;
-    right: 0px;
+    top: 1.7px;
+    right: -0.5px;
     transform: rotateZ(-45deg);
     height: 0.3px;
     background: #888888;
@@ -379,7 +379,7 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 4.5px;
     top: 1.4px;
-    left: -0px;
+    left: -0.5px;
     transform: rotateZ(45deg);
     height: 0.3px;
     background: #888888;
@@ -390,8 +390,8 @@ input::-webkit-inner-spin-button{
     display: block;
     position: absolute;
     width: 4.5px;
-    bottom: 1.4px;
-    right: 0px;
+    bottom: 1.5px;
+    right: -0.8px;
     transform: rotateZ(45deg);
     height: 0.3px;
     background: #888888;
@@ -402,7 +402,7 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 4.5px;
     bottom: 1.4px;
-    left: -1px;
+    left: -0.8px;
     transform: rotateZ(-45deg);
     height: 0.3px;
     background: #888888;
