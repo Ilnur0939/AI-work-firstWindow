@@ -12,33 +12,19 @@ function func(){
     if(inpHeight.value == '' && inpWidth.value == ''){
         return
     }
-    // console.log(inpHeight.value);
     let diffHeight = +inpHeight.value - hei
     let diffWidth = +inpWidth.value - wid
     console.log(diffHeight);  
-    // console.log(winSide.setAttribute.width);
     winSide.forEach(item => {
-        item.setAttribute("style" , `width: ${(+inpWidth.value-15)*0.32}px; height: ${154+(diffHeight/2)}px`)
+        item.setAttribute("style" , `width: ${(+inpWidth.value-15)*0.32}px; height: ${+inpHeight.value * 0.66}px`)
     })
     winTop.forEach(item => {
-        item.setAttribute("style", `width: ${(+inpWidth.value-18)*0.5}px; height: ${54+(diffHeight/2)}px`)
+        item.setAttribute("style", `width: ${(+inpWidth.value-18)*0.5}px; height: ${+inpHeight.value * 0.34}px`)
 
     })
-    winMiddle.setAttribute("style" , `width: ${(+inpWidth.value-15)*0.34}px; height: ${158 + (diffHeight/2)}px`)
+    winMiddle.setAttribute("style" , `width: ${(+inpWidth.value-15)*0.34}px; height: ${+inpHeight.value * 0.34}px`)
 
     winBox.setAttribute("style", `height: ${inpHeight.value}px; width: ${inpWidth.value}px`)
-    // winSide.setAttribute("style" , `width: ${70+diffWidth}px; height: ${154+diffHeight}px`)
-    // winBox.setAttribute("style", `width: ${inpHeight.value}px`)
-    // if(inpHeight.value > hei){
-    // }
-    // else if(inpHeight.value < hei){
-    // }
-    // if(inpWidth.value > wid){
-    //     winBox.setAttribute("style", `width: ${+inpWidth.value + diffWidth}px`)
-    // }
-    // else if(inpWidth < wid){
-    //     winBox.setAttribute("style", `height: ${+inpWidth.value + diffWidth}px`)
-    // }
 }
 
 window.addEventListener('keydown' , (e)=> {
