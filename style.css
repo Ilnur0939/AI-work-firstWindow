@@ -42,7 +42,7 @@ input::-webkit-inner-spin-button{
 .win-box{
     position: relative;
     padding: 4px;
-    background: url("./rom.png")  0 -6px , url("./rom.png");
+    background: url("./rom.png")  0 6.5px , url("./rom.png");
     background-size: 400px;
     border: 0.3px solid #888888;
     width: 241px;

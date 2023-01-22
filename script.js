@@ -13,14 +13,14 @@ function func(){
         return
     } 
     winSide.forEach(item => {
-        item.setAttribute("style" , `width: ${(+(inpWidth.value*1.33)-15)*0.32}px; height: ${(+(inpHeight.value*1.33)-10) * 0.70}px`)
+        item.setAttribute("style" , `width: ${(+(inpWidth.value*1.3)-15)*0.32}px; height: ${(+(inpHeight.value*1.3)-10) * 0.66}px`)
     })
     winTop.forEach(item => {
-        item.setAttribute("style", `width: ${(+(inpWidth.value*1.33)-15)*0.5}px; height: ${(+(inpHeight.value*1.33)-15) * 0.30}px`)
+        item.setAttribute("style", `width: ${(+(inpWidth.value*1.3)-15)*0.5}px; height: ${(+(inpHeight.value*1.3)-15) * 0.33}px`)
     })
-    winMiddle.setAttribute("style" , `width: ${(+(inpWidth.value*1.33)-15)*0.34}px; height: ${(+(inpHeight.value*1.33)-10) * 0.66}px`)
+    winMiddle.setAttribute("style" , `width: ${(+(inpWidth.value*1.3)-15)*0.34}px; height: ${(+(inpHeight.value*1.3)-10) * 0.66}px`)
 
-    winBox.setAttribute("style", `height: ${inpHeight.value * 1.33}px; width: ${(inpWidth.value*1.33)}px`)
+    winBox.setAttribute("style", `height: ${inpHeight.value * 1.3}px; width: ${(inpWidth.value*1.3)}px`)
 }
 
 window.addEventListener('keydown' , (e)=> {
