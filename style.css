@@ -22,7 +22,6 @@
     border: 1px solid #0077FF;
     border-radius: 5px;
     outline: none;
-    /* margin-right: 25px; */
 
 }
 input::-webkit-outer-spin-button,
@@ -43,8 +42,10 @@ input::-webkit-inner-spin-button{
     position: relative;
     padding: 4px;
     /* background: url("./rom.png")  0 6.5px , url("./rom.png"); */
-    background: url("./Zalatoy.png") no-repeat;
+    /* background: url("./background-img/Zalatoy.png") no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
+    /* background-size: 230px , 300px ; */
     border: 0.3px solid #864215;
     width: 241px;
     height: 226px;
@@ -283,10 +284,11 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 3px;
     height: 7px;
-    top: 21px;
+    top: 13%;
     left: -2px;
     border-radius: 0.5px;
-    background: #864215;
+    /* background: #864215; */
+    background-color: var(--afterBack,#A09FA3);
 }
 .list-item-middle::before{
     content: "";
@@ -294,10 +296,10 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 3px;
     height: 7px;
-    top: 29px;
+    top: 19%;
     left: -2px;
     border-radius: 0.5px;
-    background: #864215;
+    background-color: var(--afterBack,#A09FA3);
 }
 
 .list-item-detail{
@@ -315,7 +317,8 @@ input::-webkit-inner-spin-button{
      top: 50%;
     right: -10px;
     transform: translateY(-50%);
-
+    filter: invert(77%) sepia(6%) saturate(128%) hue-rotate(214deg) brightness(83%) contrast(50%);
+    /* filter: invert(21%) sepia(97%) saturate(790%) hue-rotate(357deg) brightness(60%) contrast(105%); */
     /* height: ; */
 }
 /* .list-item-detail::after{
@@ -338,10 +341,10 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 3px;
     height: 7px;
-    bottom: 21px;
+    bottom: 13%;
     left: -2px;
     border-radius: 0.5px;
-    background: #864215;
+    background-color: var(--afterBack,#A09FA3);
 }
 .list-item-detail-left::before{
     content: "";
@@ -349,20 +352,20 @@ input::-webkit-inner-spin-button{
     position: absolute;
     width: 3px;
     height: 7px;
-    bottom: 29px;
+    bottom: 19%;
     left: -2px;
     border-radius: 0.5px;
-    background: #864215;
+    background-color: var(--afterBack,#A09FA3);
 }
 
 
 .list-item-side{
     position: relative;
     width: 71px;
-    /* height: 157px; */
     padding: 3px;
-    margin-top: 5px;
+    margin-top: 4px;
     border: 0.3px solid #864215;
+    border-bottom: none;
     /* background: #ffffff; */
 }
 
