@@ -44,7 +44,7 @@ input::-webkit-inner-spin-button{
     padding: 4px;
     /* background: url("./rom.png")  0 6.5px , url("./rom.png"); */
     background: url("./Zalatoy.png") no-repeat;
-    /* background-size: 400px; */
+    background-size: cover;
     border: 0.3px solid #864215;
     width: 241px;
     height: 226px;
